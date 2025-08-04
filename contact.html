@@ -17,9 +17,44 @@
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
         }
         h1 {
             color: #1a1a1a;
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        textarea {
+            resize: vertical;
+            height: 100px;
+        }
+        button {
+            background-color: #007aff;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .link-container {
+            text-align: center;
+            margin-top: 20px;
         }
         a {
             color: #007aff;
@@ -34,8 +69,18 @@
 <body>
     <div class="container">
         <h1>Contact & Feedback</h1>
-        <p>We'd love to hear from you! Please use our GitHub Issues page to report bugs, suggest features, or ask for help.</p>
-        <a href="https://github.com/beemol/bbticker-releases/issues">Go to GitHub Issues</a>
+        <p>Send us a message directly, or use our GitHub page for bug reports and feature requests.</p>
+        
+        <form action="https://formspree.io/f/manbpqyk" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        
+        <div class="link-container">
+            <a href="https://github.com/beemol/bbticker-releases/issues">Go to GitHub Issues</a>
+        </div>
     </div>
 </body>
 </html>
