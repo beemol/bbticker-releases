@@ -8,11 +8,11 @@
             <sparkle:version>1.0.0</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.7</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://github.com/YOUR_USERNAME/YOUR_REPO/releases/tag/v1.0.0</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://github.com/beemol/bbticker-releases/releases/tag/v1.0.0</sparkle:releaseNotesLink>
             <enclosure
-                url="https://github.com/YOUR_USERNAME/YOUR_REPO/releases/download/v1.0.0/BBTicker-1.0.0.dmg"
-                sparkle:dsaSignature="YOUR_DSA_SIGNATURE"
-                length="1234567"
+                url="https://github.com/beemol/bbticker-releases/releases/download/v1.0.0/BBTickerInstaller.dmg"
+                sparkle:dsaSignature="n0epKx3b8YH5Qgq1dKW+JB2tPfCgNTqhNSDsj5twfDt4+uQ57QESuJafC4Z7sVfRD03ALUv+0LlZRCYwPL3DCw=="
+                length="3245057"
                 type="application/octet-stream" />
         </item>
     </channel>
